@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 80%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+header{
+    background-color: hsla(0, 0%, 80%);
+    margin-top: 0%;
+}
+
+header h1{
+    text-align: center;
+    display:block
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main h2{
+    text-align: center;
+}
+
+section{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+section{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+article{
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+footer{
+    background-color: hsl(0, 0%, 80%);
+    display: block;
+    float: clear;
+    margin-top: 30%;
+    
+}
+
+.lines{
+    min-width: 100%;
+}
+
+.info{
+    margin-left: 20px;
+    margin-right: 20px;
+
+    font-weight: normal;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color:hsl(0, 0%, 40%);
+
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    display: block;
+    width: 90px;
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 0%, 30%);
+}
+
+@media screen and (max-width: 600px){
+    aside, section, article{
+        width: 100%;
+    }
+}
